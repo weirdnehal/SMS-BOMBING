@@ -20,14 +20,14 @@ logo =                                          """
 
 
 print(logo)
-follow=input("[+] FIRST FOLLOW MY PAGE : ")
+follow=input("[*] FIRST FOLLOW MY PAGE (Type 1) : ")
 
 os.system("xdg-open https://www.facebook.com/nehal.ahmed6")
-name=input("[!] TYPE MY PAGE NAME : ")
+name=input("[*] TYPE MY PAGE NAME : ")
 
-num=input("\n \033[1;31m[*]Enter Target (Without +880):")
-ammo=int(input("\n \033[1;31m[*]Enter Amount (Default: 10):"))
-print("\n\n \033[1;32mMessage Sending Start.....")
+num=input("\n \033[1;31m[+] Enter Number (Without +880) :")
+ammo=int(input("\n \033[1;31m[+] Enter Amount (Default:10) :"))
+print("\n\n \033[1;32m[!] Message Sending Start....")
 #print("WAIT AND SEE")
 
 headers1={
