@@ -1,6 +1,6 @@
 
 
-## POWERFUL SMS-BOMBING TOOL FOR BANGLADESH
+## SMS-BOMBING TOOL FOR BANGLADESH
 
 ## ABOUT TOOL :
 SMS Bombing is an attack where a large number of messages are sent to a particular number in a very short period of time, to harass a user or disrupt the normal working of a device.
