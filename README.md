@@ -2,19 +2,20 @@
 
 POWERFUL SMS-BOMBING TOOL FOR BANGLADESH
 
-## Note:
-Due to Python Version changes, SMS-BOMBING's Version 1.0.0 Wasn't Working anymore. So We updated SMS-BOMBING Python Version 3.10 to 3.11. And to be Noted, You Have to reInstall the Tool after removing The old one from your device. To Remove Old Version, simply type:
-``` shell script
-rm -rf SMS-BOMBING
-```
-In your Terminal
+## ABOUT TOOL :
+SMS Bombing is an attack where a large number of messages are sent to a particular number in a very short period of time, to harass a user or disrupt the normal working of a device.
 
-### Version 4.1 Updates:
-<li>Done Some Mejor Changes of Source Files</li>
-<li>Dead APIs Removed</li>
-<li>New APIs added</li>
-<li>Timer Added</li>
-<li>Supports Python 3.11</li>
+
+### TESTED ON :
+
+    Termux/Kali Linux
+
+
+## FEATURES :
+* [+] Harassment spam SMS tool !
+* [+] Updated maintainence !
+* [+] Easy for beginners !
+* [+] Working BOMBING tool for termux & kali linux !
 
 ### Commands :
 To remove the old Version:
@@ -35,10 +36,10 @@ cd SMS-BOMBING
 python SMS-BOMBING
 ```
 
-## Note:
-<li>This Tool Is Only For Educational Purpose</li>
-<li>weirdnehal Will Never Be Responsible For Any Misuse</li>
-<li>Use It At Your Own Risk</li>
+## WARNING :
+
+This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.
+
 
 ## Contact :
 For Any Help or Suggestions, Contact With Us:
