@@ -33,7 +33,7 @@ pkg install git -y
 pip install requests
 git clone https://github.com/weirdnehal/SMS-BOMBING
 cd SMS-BOMBING
-python SMS-BOMBING
+python SMS-BOMBING.py
 ```
 
 ## WARNING :
