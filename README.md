@@ -26,8 +26,8 @@ rm -rf SMS-BOMBING
 To Install Tool Newly:
 
 ``` shell script
-apt update -y
-apt upgrade -y
+pkg update
+pkg upgrade -y
 pkg install python -y
 pkg install git -y
 pip install requests
