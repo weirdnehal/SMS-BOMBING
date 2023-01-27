@@ -5,9 +5,9 @@ os.system("clear")
 logo =                                          """ 
 
 \033[1;37m╔═════════════════════════════════════════════╗
-\033[1;37m║      \033[1;36m╔╗╔╔═╗╦ ╦╔═╗╦    ╔═╗╦ ╦╔╦╗╔═╗╔╦╗       \033[1;37m║
-\033[1;37m║      \033[0m║║║║╣ ╠═╣╠═╣║    ╠═╣╠═╣║║║║╣  ║║       \033[1;37m║
-\033[1;37m║      \033[1;36m╝╚╝╚═╝╩ ╩╩ ╩╩═╝  ╩ ╩╩ ╩╩ ╩╚═╝═╩╝       \033[1;37m║
+\033[1;37m║      ╔╗╔╔═╗╦ ╦╔═╗╦    ╔═╗╦ ╦╔╦╗╔═╗╔╦╗       ║
+\033[1;37m║      ║║║║╣ ╠═╣╠═╣║    ╠═╣╠═╣║║║║╣  ║║       ║
+\033[1;37m║      ╝╚╝╚═╝╩ ╩╩ ╩╩═╝  ╩ ╩╩ ╩╩ ╩╚═╝═╩╝       ║
 \033[1;37m╠═════════════════════════════════════════════╣
 \033[1;37m║    \033[1;36m[\033[1;37m✔\033[1;36m] \033[1;33mAUTHOR   :   NEHAL AHMED             \033[1;37m║
 \033[1;37m║    \033[1;36m[\033[1;37m✔\033[1;36m] \033[1;35mGITHUB   :   weirdnehal              \033[1;37m║
@@ -20,14 +20,14 @@ logo =                                          """
 
 
 print(logo)
-follow=input("[*] FIRST FOLLOW MY PAGE (Type 1) : ")
+follow=input("[1] FOLLOW ME ON FACEBOOK : ")
 
 os.system("xdg-open https://www.facebook.com/nehal.ahmed6")
-name=input("[*] TYPE MY PAGE NAME : ")
+name=input("  [*] TYPE MY FACEBOOK NAME : ")
 
-num=input("\n \033[1;31m[+] Enter Number (Without +880) :")
-ammo=int(input("\n \033[1;31m[+] Enter Amount (Default:10) :"))
-print("\n\n \033[1;32m[!] Message Sending Start....")
+num=input("\n \033[1;36m[\033[1;37m+\033[1;36m] \033[1;37mEnter Target (\033[1;36mWithout +880\033[1;37m):>")
+ammo=int(input("\n \033[1;36m[\033[1;37m+\033[1;36m] \033[1;37mEnter Amount (\033[1;36mDefault:10\033[1;37m) :>"))
+print("\n\n \033[1;32m[!] Message Sending...")
 #print("WAIT AND SEE")
 
 headers1={
@@ -84,4 +84,4 @@ while ammo>count:
     print(f"{count} SMS Successfully Done!")
   else:
     pass
-print("\033[1;31m[✔] Thanks For Using Our Tool [✔]")
+print("\033[1;31m[✔] Bombing Finished [✔]")
