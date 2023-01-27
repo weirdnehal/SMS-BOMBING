@@ -11,7 +11,7 @@ SMS Bombing is an attack where a large number of messages are sent to a particul
     Termux/Kali Linux
 
 
-## FEATURES :
+### FEATURES :
 * [+] Harassment spam SMS tool !
 * [+] Updated maintainence !
 * [+] Easy for beginners !
@@ -36,12 +36,12 @@ cd SMS-BOMBING
 python SMS-BOMBING.py
 ```
 
-## WARNING :
+### WARNING :
 
 This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.
 
 
-## Contact :
+### Contact :
 For Any Help or Suggestions, Contact With Us:
 <li> Via <a href="mailto: misterweird10@gmail.com">Email</a>
 
